@@ -1,26 +1,26 @@
 .row {
-    height: 30px;
+    height: 10px;
     display: flex;
 }
 
 .hall {
-    width: 30px;
-    height: 30px;
+    width: 10px;
+    height: 10px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
 .wall {
-    width: 30px;
-    height: 30px;
+    width: 10px;
+    height: 10px;
     background-color: brown;
 }
 
 #player {
     border: 1px;
     border-radius: 100%;
-    height: 18px;
-    width: 18px;
+    height: 8px;
+    width: 8px;
     background-color: green;
 }

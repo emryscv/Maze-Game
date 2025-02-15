@@ -3,13 +3,16 @@ import {
   set_game_board_matrix,
 } from "./set_game.js";
 
-const height = 10;
-const width = 10;
+const height = 40;
+const width = 40;
 
 const player = document.createElement("div");
 player.id = "player";
 
-let {game_board_matrix, y, x} = set_game_board_matrix(height, width);
+let x = 1;
+let y = 0;
+
+let game_board_matrix = set_game_board_matrix(height, width);
 const game_board_html = set_game_board_html(game_board_matrix, player);
 
 document.addEventListener("keydown", (e) => {
